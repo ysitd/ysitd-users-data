@@ -1,5 +1,6 @@
 {
   "id": "pcchou",
+  "alternate": ["pcchou_","pcchou1","pcchou2","pcchou_","pcchou__","pcchou___","pcchou_laptop","pcchou_dt"],
   "nickname": "Pc Chou",
   "website": "http://pcchou.me/",
   "facebook": "pc.chou.tw",
@@ -7,6 +8,6 @@
   "twitter": "pc_chou",
   "github": "pcchou",
   "email": "pcchou@pcchou.me",
-  "isBot": true,
+  "isBot": false,
   "owner": "pcchou"
 }
