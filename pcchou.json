@@ -7,6 +7,6 @@
   "twitter": "pc_chou",
   "github": "pcchou",
   "email": "pcchou@pcchou.me",
-  "isBot": 0,
+  "isBot": true,
   "owner": "pcchou"
 }
