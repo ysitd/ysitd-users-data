@@ -1,0 +1,52 @@
+[
+  {
+    "key" : "id",
+    "description" : "nick which generally use on #ysitd in irc.freenode.net",
+    "type" : ["string"]
+  },
+  {
+    "key" : "alternate",
+    "description" : "nicks which may also use on #ysitd in irc.freenode.net",
+    "type" : ["string", "array"]
+  },
+  {
+    "key" : "nickname",
+    "description" : "the personal id",
+    "type" : ["string"]
+  },
+  {
+    "key" : "website",
+    "description" : "the personal website",
+    "type" : ["string"]
+  },
+  {
+    "key" : "facebook",
+    "description" : "id on facebook.com",
+    "type" : ["string"]
+  },
+  {
+    "key" : "plurk",
+    "description" : "id on plurk.com",
+    "type" : ["string"]
+  },
+  {
+    "key" : "github",
+    "description" : "id on github.com",
+    "type" : ["string"]
+  },
+  {
+    "key" : "email",
+    "description" : "personal email(s)",
+    "type" : ["string", "array"]
+  },
+  {
+    "key" : "isBot",
+    "description" : "indicate the nick is owned by a real person or a bot",
+    "type" : ["boolean"]
+  },
+  {
+    "key" : "owner",
+    "description" : "the owner of this bot",
+    "type" : ["string"]
+  }
+]
