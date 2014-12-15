@@ -1,5 +1,12 @@
 [
   {
+    "key" : "image",
+    "description" : "your avatar",
+    "type" : ["string"],
+    "mediaType" : "image",
+    "isAlternative" : true
+  },
+  {
     "key" : "id",
     "description" : "nick which you generally used on #ysitd in irc.freenode.net",
     "type" : ["string"]
@@ -7,7 +14,8 @@
   {
     "key" : "alternate",
     "description" : "nicks which are also used at #ysitd in irc.freenode.net",
-    "type" : ["string", "array"]
+    "type" : ["string", "array"],
+    "isAlternative" : true
   },
   {
     "key" : "nickname",
@@ -17,32 +25,55 @@
   {
     "key" : "website",
     "description" : "your personal website",
-    "type" : ["string"]
+    "type" : ["string"],
+    "mediaType" : "link",
+    "isAlternative" : true
   },
   {
     "key" : "facebook",
     "description" : "your id on facebook.com",
-    "type" : ["string"]
+    "type" : ["string"],
+    "mediaType" : "link",
+    "transform" : "https://www.facebook.com/{field}",
+    "isAlternative" : true
   },
   {
     "key" : "plurk",
     "description" : "your id on plurk.com",
-    "type" : ["string"]
+    "type" : ["string"],
+    "mediaType" : "link",
+    "transform" : "http://www.plurk.com/{field}",
+    "isAlternative" : true
   },
   {
     "key" : "github",
     "description" : "your id on github.com",
-    "type" : ["string"]
+    "type" : ["string"],
+    "mediaType" : "link",
+    "transform" : "https://github.com/{field}",
+    "isAlternative" : true
+  },
+  {
+    "key" : "twitter",
+    "description" : "your id on twitter.com",
+    "type" : ["string"],
+    "mediaType" : "link",
+    "transform" : "https://twitter.com/{field}",
+    "isAlternative" : true
   },
   {
     "key" : "email",
     "description" : "your personal email(s)",
-    "type" : ["string", "array"]
+    "type" : ["string", "array"],
+    "mediaType" : "link",
+    "transform" : "mailto://{field}",
+    "isAlternative" : true
   },
   {
     "key" : "isBot",
     "description" : "indicate the nick is owned by a real person or a bot",
-    "type" : ["boolean"]
+    "type" : ["boolean"],
+    "default" : false
   },
   {
     "key" : "owner",
