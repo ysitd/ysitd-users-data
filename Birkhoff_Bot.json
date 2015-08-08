@@ -1,0 +1,13 @@
+{
+  "id": "Birkhoff_Bot",
+  "alternate": ["Birkhoff_Bot_","Birkhoff_Bot2"],
+  "nickname": "Birkhoff Lee's Bot",
+  "website": "http://b.irkhoff.com",
+  "facebook": "birkhoff.lee",
+  "plurk": "birkhoff",
+  "twitter": "BirkhoffLee",
+  "github": "BirkhoffLee",
+  "email": ["b@irkhoff.com","birkhoff.lee.cn@outlook.com"],
+  "isBot": true,
+  "owner": "Birkhoff_"
+}
