@@ -1,13 +1,13 @@
 {
   "id": "Sean",
-  "alternate": ["Sean64","Sean_m"],
+  "alternate": ["Sean64"],
   "nickname": "Sean",
-  "website": "http://Sean.idv.tw/",
+  "website": "https://www.sean.taipei/",
   "facebook": "SeanOuO",
   "plurk": "tw_Sean",
-  "twitter": "",
+  "twitter": "Sea-n64",
   "github": "Sea-n",
-  "email": ["sean900604@gmauk.com"],
+  "email": ["me@sean.taipei"],
   "isBot": false,
-  "owner": "Sean64"
+  "owner": "Sean"
 }
